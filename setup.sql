@@ -1,5 +1,5 @@
-﻿IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'board')
+﻿IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'project')
 BEGIN
-  CREATE DATABASE board;
+  CREATE DATABASE project;
 END;
 GO
